@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>My Moto| Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <div class="header row bg-dark">
+                <div class="col-4">
+                    <img src="assets/placeholder_logo.jpg" class="logo">
+                </div>
+                <div class="col-4">
+                </div>
+                <div class="col-4">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="index.html">Home</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="cars.html">Cars</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Admin Login</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </header>
+        <section>
+            <section>
+                <div class="row no-gutters">
+                    <div class="col-md-4 contact-info">
+                        <!-- start image and info section -->
+                        <div class="photo">
+                            <img src="assets/placeholder.jpg" alt="placeholder image" />
+                        </div>
+                        <div class="about">
+                            <div class="upper value sub-heading-white" id="name">
+                                <p>MyMoto</p>
+                            </div>
+                            <div class="value">
+                                <p><i class="fas fa-map-marker-alt"></i> registereed address</p>
+                            </div>
+                            <div class="value">
+                                <p><i class="fas fa-phone-alt"></i> contact number</p>
+                            </div>
+                            <div class="value">
+                                <p><i class="fas fa-envelope-open-text"></i> email address</p>
+                            </div>
+                        </div>
+                        <!-- end image and info section-->
+                    </div>
+                    <div class="col-10 col-md-6 offset-1 col-sm-4 about">
+                        <h2 class="title">About Us</h2>
+                        <!-- Start information section -->
+                        <!-- bootstrap collapse code -->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fas fa-tools"></i>  What do we do?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                   During the pandemic we made the most of the quieter workshops to repair cars that had previosuly been written off... or words to that effect.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fas fa-car"></i> How can you get one of our cars?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  Here you can put some wording about how they contact you to buy one of these cars.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fas fa-question"></i> FAQ
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  Here you can put another answer to an FAQ
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+    
+                <!-- end of bootstrap's collapsing code -->
+        </section>
+        <footer>
+            <div class="col-12 bg-dark">
+                <p class="text-white mx-auto">my moto 2021</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+    </body>
+</html>
